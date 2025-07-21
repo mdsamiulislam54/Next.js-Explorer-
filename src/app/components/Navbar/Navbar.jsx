@@ -7,7 +7,7 @@ const Navbar = () => {
         <ul className="flex justify-around bg-gray-800 text-white p-4">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>    
-            <Link href="/contact">Contact</Link>
+            <Link href="/post">Post</Link>
             <Link href="/services">Services</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/portfolio">Portfolio</Link>
