@@ -1,6 +1,16 @@
 import { postDataFetchWithId } from '@/lib/postDataFeatch';
 import React from 'react'
 
+export async function generateMetadata({params}) {
+    const { id } = params;
+    const post = await postDataFetchWithId(id);
+    return {
+        title: post.title,
+        description: post.body,
+    };
+}
+
+
 const postDetails = async ({params}) => {
     const { id } = params;
     const post = await postDataFetchWithId(id);

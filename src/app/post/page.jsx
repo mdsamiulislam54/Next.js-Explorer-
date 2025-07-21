@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React from 'react'
 
 const  Post =  async () => {
-    const data = await postDataFetch(0);
-    console.log(data);
+    const data = await postDataFetch();
+
   return (
     <div>
         <h1>Posts</h1>
