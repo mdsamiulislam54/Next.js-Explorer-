@@ -8,7 +8,7 @@ export default function Home() {
     lorem ipsum dolor sit amet, consectetur adipiscing elit.
     lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-    <Image placeholder="blur" src={Thum} alt="thum"/>
+    <Image placeholder="blur" src={Thum} alt="thum" width={400} />
 
   </div>
   );
